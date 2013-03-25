@@ -1,0 +1,36 @@
+{
+    "nav": [
+        [
+            "Photos",
+            "admin::photos",
+            "Photo Manager"
+        ]
+    ],
+    "ext": [
+        {
+            "path": "photos/update",
+            "method": "photos::admin.update",
+            "role": "Photo Manager"
+        },
+        {
+            "path": "photos/upload",
+            "method": "photos::admin.upload",
+            "role": "Photo Manager"
+        },
+        {
+            "path": "photos/manage_gallery",
+            "method": "photos::admin.manage_gallery",
+            "role": "Photo Manager"
+        },
+        {
+            "path": "photos/gallery",
+            "method": "photos::admin.gallery",
+            "role": "Photo Manager"
+        },
+        {
+            "path": "photos",
+            "method": "photos::admin.home",
+            "role": "Photo Manager"
+        }
+    ]
+}
