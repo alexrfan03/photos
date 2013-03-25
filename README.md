@@ -56,6 +56,12 @@ Installation
   php artisan photos::generate
   ```
 
+- Publish bundle assets
+
+  ```sh
+  php artisan bundle:publish photos
+  ```
+
 - Implement a theme based on the Theme bundle. The theme should
   implement a layout called `galleries`. For example of the layout see `examples/layouts/`
   directory.
