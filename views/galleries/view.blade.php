@@ -17,9 +17,9 @@
 <ul class="thumbnails">
     @foreach ($gallery->photos as $photo)
     <li class="span3">
-        <a href="{{ asset('uploads/photos/' . $gallery->slug . '/' . $photo->filename) }}" class="thumbnail modalbox group-photos colorbox" rel="lightbox">
+        <a href="{{ asset('uploads/photos/' . $gallery->slug . '/' . $photo->filename) }}" class="thumbnail modalbox group-photos colorbox" rel="lightbox" title="{{ $photo->caption }}">
             <img src="{{ asset('uploads/photos/' . $gallery->slug . '/thumbs/' . $photo->filename) }}"
-                 alt="{{ $photo->description }}" title="{{ $photo->caption }}">
+                 alt="{{ $photo->description }}">
         </a>
     </li>
     @endforeach
