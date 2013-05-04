@@ -19,6 +19,12 @@ Features
 - Support for theming slideshows with choice of modal box,
   e.g. Colorbox, Lightbox etc.
 
+Sites using the Photos bundle
+-----------------------------
+
+ * [Gayatri Creations](http://www.gayatricreations.in/catalogue)
+ * [Dept. of History, JU](http://www.historyju.org/photos)
+
 Requirements
 ------------
 
